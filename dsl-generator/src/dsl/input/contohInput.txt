@@ -12,4 +12,3 @@ barang {
 }
 warnaBackground white
 warnaFont black
-html

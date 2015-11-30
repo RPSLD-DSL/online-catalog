@@ -13,7 +13,8 @@ import dsl.katalogtemplate.Parser;
  */
 public class MainGenerator {
     public static void main(String[] args) {
+        String curDir = System.getProperty("user.dir");
         Parser pars = new Parser();
-        pars.validate("contohInput.txt");
+        pars.validate(curDir + "\\src\\dsl\\input\\contohInput.txt");
     }
 }
