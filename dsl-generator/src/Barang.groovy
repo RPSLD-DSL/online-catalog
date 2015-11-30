@@ -1,5 +1,3 @@
-package dsl.generator
-
 import groovy.xml.MarkupBuilder
 
 /*
@@ -13,14 +11,11 @@ import groovy.xml.MarkupBuilder
  * @author TOLEP
  */
 class Barang {
-    String namaBarang
-    String hargaBarang
-    String deskripsiBarang
-
-//    def static foo(Closure closure, Barang barang) {
-//        closure.delegate = barang
-//        closure()
-//    }
+    public String namaBarang
+    public String hargaBarang
+    public String deskripsiBarang
+    public String pathToGambar
+    public String category
     
     def namaBarang(String nama) {
         this.namaBarang = nama;
@@ -28,24 +23,24 @@ class Barang {
 
     def hargaBarang(String harga) {
         this.hargaBarang = harga
+        println this.hargaBarang
     }
     
     def deskripsiBarang(String desc) {
         this.deskripsiBarang = desc
+        println this.deskripsiBarang
     }
     
-//    def methodMissing(String methodname, args) {
-//        println methodname
-//    }
-//    
-//    def getFoo() {
-//        doBarang(this)
-//    }
-//    
-//    public static Barang doBarang(Barang barang) {
-//        return barang
-//    }
-
+    def pathToGambar(String path) {
+        this.pathToGambar = path
+        println this.pathToGambar
+    }
+    
+    def category(String cat) {
+        this.category = cat
+        println this.category
+    }
+    
 }
 
 
