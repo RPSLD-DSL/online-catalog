@@ -1,28 +1,15 @@
-{
-    barang: 
-        {
-            //jsonarray
-            [
-                nama_barang: ... (x)
-                harga_barang: ... (x)
-                deskripsi: ... -> default: lorem ipsum
-                stok: ... (x)
-                kategori: ... -> default: tidak berkategori
-                url_gambar: ... -> default: default image
-            ],
-            [
-                barang 2 (Sama)
-            ],
-        }
-    penjual:
-        {
-            nama_toko: ... (x)
-            alamat: ... (x)
-        }
-    konfigurasi_tampilan:
-        {
-            warna_latar_belakang: -> default: putih
-            jumlah_kolom: ... -> default: 3
-            format_tulisan: ... -> default: tulisan yang bagus
-        }
+namaToko lalalalaa
+alamatToko disini
+barang {
+    namaBarang sepatu cantik
+    hargaBarang 10000
+    deskripsiBarang lalala
 }
+barang {
+    namaBarang sepatu cantik 2
+    hargaBarang 10000
+    deskripsiBarang lalala
+}
+warnaBackground white
+warnaFont black
+html
