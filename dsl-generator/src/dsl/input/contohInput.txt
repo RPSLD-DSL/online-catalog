@@ -1,0 +1,15 @@
+namaToko lalalalaa
+alamatToko disini
+barang {
+    namaBarang sepatu cantik
+    hargaBarang 10000
+    deskripsiBarang lalala
+}
+barang {
+    namaBarang sepatu cantik 2
+    hargaBarang 10000
+    deskripsiBarang lalala
+}
+warnaBackground white
+warnaFont black
+html
