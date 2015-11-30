@@ -16,7 +16,21 @@ class Parser {
         
     }
     
-    public void validate(String filename) {
+    public void validate(String filepath) {
+        
+        File file = new File(filepath)
+        
+        if (!file.exists()) {
+            // file does not exist
+            println("File does not exist")
+        } else {
+            // file exists
+            file.eachLine{ line ->
+                // line != null
+                
+            }
+        }
+        
         
     }
 }
