@@ -6,51 +6,39 @@
 
 package dsl.katalogtemplate;
 
+import java.util.HashMap
+
 /**
  *
  * @author ASUS
  */
 class Parser {
     public void read(String filename) {
-        String input = System.getProperty("user.dir") + "\\src\\dsl\\input\\" + filename
+        String input = filename + "contohInput.txt"
         validate(input)
     }
     
     public boolean validate(String filepath) {
-        def katalog = []
         File file = new File(filepath)
-        println filepath
         boolean valid = false
+        def parameters = ""
         
         if (!file.exists()) {
             // file does not exist
             println("File does not exist")
         } else {
-            driveInfo = [:]
+            boolean parseBarang = false
             // file exists
-            file.eachLine{ line ->
+            while (file.eachLine) {
                 // line != null
-                println $line
                 if(line.trim()) {
-                    // map
-                    def(key,value) = line.split(' ').collect {it.trim()}
-                    // store
-                    driveInfo."$key" = value;
-                } else {
-                    // line == null
-                    if (driveInfo) {
-                        katalogDsl << driveInfo
-                        driveInfo = [:]
+                    inputParam = line.split(" ", 2)[0]
+                    if (!parameters.contains(inputParam)) {
+                        valid = false
                     }
                 }
             }
-        }
-        // last insert
-        if (driveInfo) {
-            katalogDsl << driveInfo
-        }
-        
+        }        
         return valid;
     }
 }
-
