@@ -22,7 +22,7 @@ class Parser {
         
         File file = new File(filepath)
         boolean valid = true
-        String parameters = "namaToko alamatToko barang namaBarang hargaBarang deskripsiBarang warnaBackground warnaFont html"
+        String parameters = "namaToko alamatToko barang namaBarang hargaBarang deskripsiBarang warnaBackground warnaFont"
         
         if (!file.exists()) {
             // file does not exist
