@@ -1,3 +1,4 @@
+package dsl.generator
 
 import groovy.xml.MarkupBuilder
 
