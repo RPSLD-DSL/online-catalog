@@ -5,12 +5,15 @@
  */
 package dsl.generator;
 
+import dsl.katalogtemplate.Parser;
+
 /**
  *
  * @author ASUS
  */
 public class MainGenerator {
     public static void main(String[] args) {
-        
+        Parser pars = new Parser();
+        pars.validate("contohInput.txt");
     }
 }
