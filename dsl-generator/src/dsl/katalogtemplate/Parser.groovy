@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package dsl.katalogtemplate;
 
-import java.util.HashMap
+import java.util.HashMap;
 
 /**
  *
@@ -22,7 +17,7 @@ class Parser {
         
         File file = new File(filepath)
         boolean valid = true
-        String parameters = "namaToko alamatToko barang namaBarang hargaBarang deskripsiBarang warnaBackground warnaFont"
+        String parameters = "namaToko alamatToko barang namaBarang hargaBarang deskripsiBarang warnaBackground warnaFont pathToGambar category"
         
         if (!file.exists()) {
             // file does not exist

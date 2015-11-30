@@ -10,6 +10,10 @@ body {
     font-color : white;
 }
 
+.title {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
 .caption {
     height: 130px;
@@ -33,7 +37,6 @@ body {
 
 .thumbnail {
     padding: 0;
-    height: 100%;
 }
 
 .thumbnail .caption-full {
