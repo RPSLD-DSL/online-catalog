@@ -1,8 +1,5 @@
 package dsl.generator;
 
-
-import dsl.katalogtemplate.*;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -19,8 +16,7 @@ public class Main {
         Parser pars = new Parser();
         
         if (pars.validate(fileLocation)) {
-            Execute ex = new Execute();
-            String output = "<!DOCTYPE html>\n" +ex.foo(fileLocation);
+            String output = "<!DOCTYPE html>\n" +Execute.doGenerate(fileLocation);
             
             File file = new File (curDir + "\\output\\output.html");
             if (!file.exists()) {

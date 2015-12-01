@@ -1,5 +1,5 @@
 
-package dsl.katalogtemplate;
+package dsl.generator;
 
 import groovy.xml.MarkupBuilder;
 
