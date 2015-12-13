@@ -1,7 +1,7 @@
 namaToko "Toko Afik"
 alamatToko "Jl Ganesha 10"
-warnaBackground "black"
-warnaFont "white"
+warnaBackground "white"
+warnaFont "black"
 barang {
     namaBarang "Sepatu1"
     hargaBarang "10000"
@@ -27,27 +27,6 @@ barang {
     namaBarang "sepatu cantik 2"
     hargaBarang "10000"
     deskripsiBarang "Lorem ipsum blah blah blah"
-    pathToGambar "D:gambar.png"
-    category "fashion"
-}
-barang {
-    namaBarang "Sepatu1"
-    hargaBarang "10000"
-    deskripsiBarang "Lorem ipsum blah blah blah blah"
-    pathToGambar "D:gambar.png"
-    category "fashion"
-}
-barang {
-    namaBarang "sepatu cantik 2"
-    hargaBarang "10000"
-    deskripsiBarang "Lorem ipsum blah blah blah"
-    pathToGambar "D:gambar.png"
-    category "fashion"
-}
-barang {
-    namaBarang "Sepatu1"
-    hargaBarang "10000"
-    deskripsiBarang "Lorem ipsum blah blah blah blah"
     pathToGambar "D:gambar.png"
     category "fashion"
 }
