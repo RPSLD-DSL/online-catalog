@@ -1,0 +1,39 @@
+namaToko "Tokopedia"
+alamatToko "Jl Ganesha 10"
+warnaBackground "#FFFFFF"
+warnaFont "#000000"
+barang {
+    namaBarang "Sandal Cantik"
+    hargaBarang "138000"
+    deskripsiBarang "bahan: syntetic, size: 36-40, warna: sesuai gambar"
+    pathToGambar "img/sandal1.jpg"
+    category "Fashion"
+}
+barang {
+    namaBarang "Kaos Addicted To Travel"
+    hargaBarang "100000"
+    deskripsiBarang "Terbuat dari Cotton combed berkualitas ekspor. Menghasilkan tekstur kain yang lembut, tidak panas, menyerap keringat dan nyaman dipakai."
+    pathToGambar "img/kaos.jpg" 
+    category "Pakaian"
+}
+barang {
+    namaBarang "Xiaomi Redmi Note 3"
+    hargaBarang "3525000"
+    deskripsiBarang "Sebuah Flagship dengan harga terjangkau. Bodi berbahan metal, fingerprint recognition, dan baterai berkapasitas 4000 mAh."
+    pathToGambar "img/hp.png"
+    category "Handphone & Tablet"
+}
+barang {
+    namaBarang "Canon EOS 5D Mark III"
+    hargaBarang "44190000"
+    deskripsiBarang "Jual kamera canon dslr EOS 5D Mark 3 + lensa 24-105mm F4L IS USM bergaransi resmi 1 tahun."
+    pathToGambar "img/kamera.jpg"
+    category "Kamera, Foto & Video"
+}
+barang {
+    namaBarang "Novel Pulang (Tere Liye)"
+    hargaBarang "28500"
+    deskripsiBarang "Sebuah kisah tentang perjalanan pulang, melalui pertarungan demi pertarungan, untuk memeluk erat semua kebencian dan rasa sakit"
+    pathToGambar "img/novel.jpg"
+    category "Buku"
+}
