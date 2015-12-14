@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         String curDir = System.getProperty("user.dir");
-        String fileLocation = curDir + args[0];
+        String fileLocation = curDir + File.separator + args[0];
         Parser pars = new Parser();
         
         if (pars.validate(fileLocation)) {
